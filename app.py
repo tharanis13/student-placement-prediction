@@ -6,9 +6,9 @@ import joblib
 import PyPDF2
 
 # Load model, scaler, and target label encoder
-model = joblib.load(r"C:\mlproject\placement_model.pkl")
-scaler = joblib.load(r"C:\mlproject\scaler.pkl")
-target_le = joblib.load(r"C:\mlproject\target_le.pkl")
+model = joblib.load("placement_model.pkl")
+scaler = joblib.load("scaler.pkl")
+target_le = joblib.load("target_le.pkl")
 
 st.set_page_config(page_title="Student Placement Predictor", layout="wide")
 
